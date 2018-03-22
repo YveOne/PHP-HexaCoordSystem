@@ -1,0 +1,12 @@
+  if (!function_exists('matrixHexaProjectionRealTier'))
+  {
+  function matrixHexaProjectionRealTier()
+  {
+    return array(
+      M_COS30, 0, 0, 0,
+      M_SIN30, 1, 0, 0,
+      0, 0, 1, 0,
+      0, 0, 0, 1
+    );
+  }
+  }
